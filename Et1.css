@@ -1,0 +1,139 @@
+.heading{
+    position: relative;
+    min-height: 120vh;
+    background-color:plum;
+    color : black;
+}
+.box{
+    background-color: white;
+    width: 400px;
+    height: 700px;
+    padding: 10px;
+    border: 3px solid white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(57, 56, 57);
+}
+.youb{
+    font-size: 16px;
+}
+.ethead{
+    text-align: center;
+    font-size: 30px;
+}
+.rupee{
+    font-size: 38px;
+}
+.bigbox{
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 5px 5px rgb(162, 160, 162);
+    justify-content: space-between;
+    display: flex;
+    transform: translate(15%,-10%);
+   
+}
+.inex-box-first{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 5px 5px rgb(162, 160, 162);
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.inex-box-second{
+    background-color: white;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 5px 5px rgb(162, 160, 162);
+    justify-content: space-between;
+    text-align: center;
+
+}
+.money-plus{
+    font-size: 25px;
+    color: green;
+    text-align: 10px;
+    margin: 10px;
+}
+.money-minus{
+    font-size: 25px;
+    color: red;
+    text-align: 10px;
+    margin: 10px;
+}
+
+.list{
+    list-style-type: none;
+    padding:0;
+    margin-bottom: 40px;
+}
+
+.list li{
+    background-color: white;
+    box-shadow: 2.5px 2.5px 5px 5px rgb(162, 160, 162);;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px ;
+    width:350px;
+}
+ .del-btn{
+   cursor: pointer;
+   background-color: red; 
+   border: 0;
+   color:black;
+   font-size: 20px;
+   line-height: 20px;
+   padding:2px 5px;
+   position: absolute;
+   top:50%;
+   left:0;
+   transform: translate(-100%,-50%);
+   opacity: 0;
+   transition: opacity 0.3s ease;
+ }
+ .list li.hover .del-btn{
+    opacity: 1;
+ }
+
+.End{
+    background-color: white;
+    width: 350px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 2.5px 2.5px 5px 5px rgb(162, 160, 162);
+    justify-content: space-between;
+    transform: translate(5%,5%);
+    text-align: 20%;
+    padding: 10px;
+    
+}
+.addtra{
+    border-radius: 12px;
+    height: 30px;
+    padding: 10px;
+    margin:10px;
+    width:320px;
+    background-color:purple;
+    text-align: center;
+    color: white;
+}
+.foodname,.foodprice {
+    border-radius: 10px;
+    height: 6px;
+    padding: 10px;
+    width:300px;
+    color: black;
+    margin: 10px;
+}
