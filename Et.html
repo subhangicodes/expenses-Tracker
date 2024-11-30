@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expenses Tracker</title>
     <link href="Et1.css" rel="stylesheet" type="text/css">
-    <script src="Et2.js" defer ></script>
+    
 </head>
 <body>
     <header class="heading">
-    </header>
     <section class="box">
     <h1 class="ethead">Expense Tracker</h1><br><b class="youb">YOUR BALANCE</b><br>
     <div class="rupee" id="balance">$0.00</div><br>
@@ -26,15 +25,14 @@
     <h3>History</h3>
      <ul class="list" id="list">
         <li class="minus">
-            Cash<span>-$400</span><button class="del-btn">X</button>
+            Cash<span>-$400</span><button class="del-btn" onclick="removeTransaction(1)">X</button>
         </li>
      </ul>
-
-    <h3 class="addline" >Add new transaction</h3>
+     <h3 class="addline" >Add new transaction</h3>
     <form class="transaction" id="transaction">
     <div class="End"><b>Food type</b>
-    <input class="foodname" type="text" placeholder="Enter food name..."><br><b>Amount</b><br>
-    <input class="foodprice" type="number" placeholder="Enter amount...">
+    <input class="foodname" type="text"  id="text" placeholder="Enter food name..."><br><b>Amount</b><br>
+    <input class="foodprice" type="amount" id="amount" placeholder="Enter amount...">
     <div class="form-check">
     <input class="form-check-input" type="radio" name="flexradiodefault" id="flexradiodefault1">
     <label class="form-check-label " for="flexradiodefault1">
@@ -52,6 +50,7 @@
     </form>
 
     </section>
-        
+</header>
+    <script src="E.js" defer ></script>    
 </body> 
 </html> 

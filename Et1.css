@@ -23,6 +23,7 @@
 .ethead{
     text-align: center;
     font-size: 30px;
+    margin:10px
 }
 .rupee{
     font-size: 38px;
@@ -72,9 +73,15 @@
 }
 
 .list{
-    list-style-type: none;
+    list-style-type:none;
     padding:0;
-    margin-bottom: 40px;
+    width:400px;
+    height: 100px;
+    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+    
 }
 
 .list li{
@@ -85,28 +92,32 @@
     justify-content: space-between;
     position: relative;
     padding: 10px;
-    margin: 10px ;
     width:350px;
+    margin:5px;
+    margin-left: 20px;
 }
  .del-btn{
    cursor: pointer;
-   background-color: red; 
-   border: 0;
-   color:black;
-   font-size: 20px;
-   line-height: 20px;
-   padding:2px 5px;
+   color: black;
+   font-size: 15px;
+   line-height: 13px;
+   padding: 2px 5px;
    position: absolute;
-   top:50%;
-   left:0;
-   transform: translate(-100%,-50%);
-   opacity: 0;
-   transition: opacity 0.3s ease;
- }
+   top: 50%;
+   right: 345px;
+   transform: translate(-100%, -50%);
+   margin-left: 2px;
+   margin-right: 2px;
+   transition: opacity 0.1s ease;
+}
+
+
  .list li.hover .del-btn{
     opacity: 1;
  }
-
+h3{
+    margin: 10px;
+}
 .End{
     background-color: white;
     width: 350px;
@@ -136,4 +147,7 @@
     width:300px;
     color: black;
     margin: 10px;
+}
+form{
+    position:static;
 }
